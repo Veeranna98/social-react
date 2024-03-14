@@ -14,8 +14,8 @@ export default function Login1() {
   return (
     <>
 
-            {/* {flag==0||flag==1?<Login/>:<Home/>} */}
-            {flag ===0 && <Login/>}
+            {flag==0||flag==2?<Login/>:<Home/>}
+            {/* {flag ===0 && <Login/>} */}
             {flag ===1 && <Home/>}
             {flag ===2 && <Register/>}
     </> 
