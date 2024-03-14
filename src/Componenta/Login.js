@@ -52,7 +52,7 @@ export default function Login() {
             <input type='password' id='text2' className="login-input" placeholder='Password'></input><br></br>
             <button onClick={handleLogin} className="login-button">Login</button><br></br>
             <button onClick={() => setFlag(2)} className="login-button">Create Account</button><br></br>
-            {/* {flag === 2 && <Register />} */}
+            {flag === 2 && <Register />}
             </div>
         </div>
         </>
